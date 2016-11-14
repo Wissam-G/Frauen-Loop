@@ -192,6 +192,15 @@ ul.social-icons {
   padding-bottom: 5px; 
   margin-right: 3%;
 }
+.quoteAbout {
+  font-family: 'Open Sans', sans-serif;
+  color:#999999;
+  font-size: 18px;
+  text-align: justify;
+  margin:0 auto;
+  padding-bottom: 5px; 
+  margin-right: 3%;
+}
 .quoteWhite {
   color:#fff;
   font-style: none;
@@ -201,6 +210,12 @@ ul.social-icons {
   color:#bfbfbf;
   font-style: none;
   font-size: 16px;
+  padding-bottom: 2px;
+}
+.quoteWhiteheader {
+  color:#bfbfbf;
+  font-style: none;
+  font-size: 25px;
   padding-bottom: 2px;
 }
 .quotepink {
@@ -233,8 +248,10 @@ ul.social-icons {
  padding-top: 100px;
 }
 .sectionhow {
-  padding-top: 125px;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
+
 .sectionTeam {
   padding-top: 130px;
 }
@@ -328,7 +345,7 @@ ul.social-icons {
 .quote {
   font-size: 15px;
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 5px;  
 }
 .quoteWhite {
   color:#fff;
@@ -499,7 +516,7 @@ a:hover {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 60px 0;
   }
 }
 .skills-heading {
@@ -525,6 +542,7 @@ a:hover {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  cursor: pointer;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
