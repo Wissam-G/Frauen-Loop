@@ -423,9 +423,6 @@ body .contact-text .contact-text-bold2 {
   position: absolute;
   font-size: 13px;
   color: #000000;
-  top: 20%;
-  width: 100%;
-  height: 100%;
   text-align: center;
 }
 .contact-text-bold {
@@ -632,3 +629,8 @@ a:hover {
 	top:10%;
 }
 
+#contact {
+display: flex;
+
+justify-content:center;
+}
