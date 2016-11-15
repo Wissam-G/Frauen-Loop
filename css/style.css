@@ -81,6 +81,12 @@ ul.social-icons {
 }
 .pull-right {
   float: right;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.pull-right2 {
+  float: left;
+  padding-left: 20px;
 }
 /*navigation bar*/
 .navbar {
@@ -138,7 +144,15 @@ ul.social-icons {
   margin-left: 0;
   margin-right: 0;
 }
+.contactCircle {
+  width: 75px;
+ } 
 @media only screen and (min-width : 747px) {
+
+.contactCircle {
+  width: 125px;
+}
+ 
   .nav {
     position: fixed;
     left: 30%;
@@ -162,7 +176,7 @@ ul.social-icons {
 }
 .navbar-brand>img {
   height: 85px;
-  width: 140px;
+  width: 150px;
   margin: 0 auto;
   position: fixed;
   left: 5%;
@@ -247,13 +261,16 @@ ul.social-icons {
 .section {
  padding-top: 100px;
 }
+.sectionWho {
+ padding-top: 70px;
+}
 .sectionhow {
   padding-top: 70px;
   padding-bottom: 100px;
 }
 
 .sectionTeam {
-  padding-top: 130px;
+  padding-top: 70px;
 }
 .header-circle {
   max-width: 100%;
@@ -278,7 +295,7 @@ img {
   margin: 0 auto;
   display: block;
 }
-@media only screen and (max-width : 750px) {
+@media only screen and (max-width : 750px) {  
   .navbar-inverse .navbar-nav>li>a {
     color:#fff;
     font-size: 15px;
@@ -449,6 +466,8 @@ body .contact-text .contact-text-bold2 {
 .sectionHeader {
   padding-top: 0px;
 }
+
+}
 }
 img {
   margin: 0 auto;
@@ -485,7 +504,7 @@ img {
   position: absolute;
   font-size: 23px;
   color: #000000;
-  top: 20%;
+  top: 10%;
   width: 100%;
   height: 100%;
   text-align: center;
