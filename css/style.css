@@ -232,6 +232,17 @@ ul.social-icons {
   font-size: 25px;
   padding-bottom: 2px;
 }
+.quoteWhiteheader2 {
+  color:#bfbfbf;
+  font-style: none;
+  font-size: 25px;
+  padding-bottom: 2px;
+}
+.quoteWhiteheader2:hover {
+  color: #fb0347;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}
 .quotepink {
   font-family: 'Open Sans', sans-serif;
   color:#fb0347;
@@ -262,7 +273,7 @@ ul.social-icons {
  padding-top: 100px;
 }
 .sectionWho {
- padding-top: 70px;
+ padding-top: 55px;
 }
 .sectionhow {
   padding-top: 70px;
