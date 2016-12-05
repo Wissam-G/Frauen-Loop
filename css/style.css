@@ -397,46 +397,12 @@ ul.social-icons {
   width: 100%;
   padding: 0;
 }
-.header-circle {
+/*.header-circle {
  width: 220px;
  height: 110px;
-}
-.header-circleWho {
- width: 100px;
- height: 100px;
- padding-bottom: 10px;
- margin-right: 35%;
-}
-
+}*/
 .sectionTeam {
   padding-top: 10px;
-}
-.carousel-wrapper {
-  min-width: 300px;
-  width: calc((100vh - 130px - 20px) * 1.5);
-  max-width: 100%;
-  margin: 0 auto;
-  padding-top: 0;
-}
-.header-circleTeam{
-  height: 90px;
-  padding: 0;
-}
-.TeamHome {
-  font-family: 'Open Sans', sans-serif;
-  color:#fff;
-  font-size: 20px;
-  text-align: center;
-  margin:0 auto;
-  padding-top: 5px;
-  cursor: pointer;
-  text-decoration: none;
-}
-.TeamHome:hover:not(.active) {
-  color:  #fff;
-  -webkit-transition-duration: 0.8s; 
-  transition-duration: 0.8s;
-  text-decoration: none;
 }
 body .contact-text .contact-text-bold {
   font-size: 15px;
@@ -463,11 +429,11 @@ body .contact-text .contact-text-bold2 {
   margin-right: auto;
   margin-left: auto;
 }
-.carousel-caption {
+/*.carousel-caption {
   right: 20%;
   left: 20%;
   padding-bottom: 10px;
-} 
+}*/
 .quoteWhite2 {
   color:#bfbfbf;
   font-style: none;
@@ -616,12 +582,10 @@ a:hover {
     margin: 0 0 30px;
   }
 }
-
 .modal.custom {
     outline:none;
     
 }
-
 .modal.custom .modal-dialog {
     width:50%;
     margin:0 auto;
