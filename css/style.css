@@ -267,10 +267,13 @@ ul.social-icons {
   padding-top: 140px;
 }
 .sectionHeader {
-  padding-top: 55px;
+  padding-top: 25px;
 }
 .section {
  padding-top: 100px;
+}
+.sectionAbout {
+ padding-top: 80px;
 }
 .sectionWho {
  padding-top: 65px;
