@@ -631,3 +631,45 @@ display: flex;
 
 justify-content:center;
 }
+
+.video-section .pattern-overlay {
+
+padding: 110px 0 32px;
+min-height: 496px; 
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section button{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:30px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section button{
+font-size: 25px;
+font-weight:lighter;
+  background-color: #fb0347;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 250;
+}
+.video-section button:hover{
+  text-decoration: none;
+  color:  #000000;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
