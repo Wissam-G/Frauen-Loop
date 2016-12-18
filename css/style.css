@@ -278,6 +278,9 @@ ul.social-icons {
 .sectionWho {
  padding-top: 65px;
 }
+.sectionDonate{
+ padding-top: 65px;
+}
 .sectionhow {
   padding-top: 70px;
   padding-bottom: 100px;
@@ -653,17 +656,19 @@ text-shadow: 1px 1px 1px #000;
 -moz-text-shadow: 1px 1px 1px #000;
 }
 .video-section button{
-font-size: 25px;
-font-weight:lighter;
+  font-size: 30px;
   background-color: #fb0347;
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   cursor: pointer;
   z-index: 250;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  border-radius: 10px;
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
 }
 .video-section button:hover{
   text-decoration: none;
@@ -673,3 +678,4 @@ font-weight:lighter;
 }
 .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
+
