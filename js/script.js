@@ -86,3 +86,23 @@ $(document).ready(function () {
   ga('send', 'pageview');
 
 
+//check out Strip.com
+        $('#stripe-button').click(function(){
+          var token = function(res){
+            var $id = $('<input type=hidden name=stripeToken />').val(res.id);
+            var $email = $('<input type=hidden name=stripeEmail />').val(res.email);
+            $('form').append($id).append($email).submit();
+          };
+
+          var amount = $("#stripeAmount").val();
+          StripeCheckout.open({
+            key:         'pk_test_6pRNASCoBOKtIshFeQd4XMUh',
+            amount:      '1000',
+            name:        'FrauenLoop gUG',
+            image:       'https://s3.amazonaws.com/stripe-uploads/acct_19OnzhHR0Wgl5Lq7merchant-icon-1481288958924-Logo_Frauenloop_rot_web_small.jpg',
+            description: 'Widget',
+            currency:    'eur'
+          });
+
+          return false;
+        });
