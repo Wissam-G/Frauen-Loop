@@ -313,6 +313,16 @@ img {
   display: block;
 }
 @media only screen and (max-width : 750px) {  
+  .quoteAbout {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.quoteWhiteheader {
+padding-left: 10px;
+}
+.quoteWhiteheader2 {
+padding-left: 10px;
+}
   .navbar-inverse .navbar-nav>li>a {
     color:#fff;
     font-size: 15px;
@@ -531,6 +541,7 @@ a:hover {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  background-color: #fff;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(251, 3, 71, 0.7);
@@ -568,7 +579,7 @@ a:hover {
   margin: 0 auto;
   background-color: #fb0347;
   text-align: center;
-  padding: 25px;
+  padding: 15px 25px;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
@@ -679,3 +690,7 @@ text-shadow: 1px 1px 1px #000;
 .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
 
+.whatImg {
+  max-width: 70%;
+
+}
