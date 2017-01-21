@@ -86,7 +86,7 @@ ul.social-icons {
 }
 .pull-right2 {
   float: left;
-  padding-left: 20px;
+  padding-left: 87px;
 }
 /*navigation bar*/
 .navbar {
@@ -215,6 +215,14 @@ ul.social-icons {
   padding-bottom: 5px; 
   margin-right: 3%;
 }
+.quoteAbout2 {
+  font-family: 'Open Sans', sans-serif;
+  color:#999999;
+  font-size: 18px;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 5px; 
+}
 .quoteWhite {
   color:#fff;
   font-style: none;
@@ -242,6 +250,7 @@ ul.social-icons {
   color: #fb0347;
   -webkit-transition-duration: 0.8s; 
   transition-duration: 0.8s;
+
 }
 .quotepink {
   font-family: 'Open Sans', sans-serif;
