@@ -716,3 +716,17 @@ a:hover {
   max-width: 70%;
 
 }
+strong a {
+color:#bfbfbf;
+}
+strong {
+  cursor: pointer;
+  font-style: none;
+  padding-bottom: 2px;
+}
+strong :hover {
+  color: #fb0347;
+  -webkit-transition-duration: 0.8s; 
+  transition-duration: 0.8s;
+
+}
