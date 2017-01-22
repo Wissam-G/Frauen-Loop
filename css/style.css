@@ -279,7 +279,7 @@ ul.social-icons {
   padding-top: 25px;
 }
 .section {
- padding-top: 100px;
+ padding-top: 120px;
 }
 .sectionAbout {
  padding-top: 80px;
@@ -492,8 +492,9 @@ img {
 .contact-button {
   background-color: #fb0347;
   border: none;
+  border-radius: 5px;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
