@@ -720,7 +720,7 @@ strong :hover {
 .carousel-caption {
   font-size: 20px;
   background: rgba(0, 0, 0, 0.4);
-  bottom: 60px;
+  bottom: -10px;
   max-width: 100%;
   width:100%;
   left: 0;
@@ -773,31 +773,71 @@ strong :hover {
 /*
   WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
   Need to override the 3.3 new styles for modern browsers & apply opacity
-*/
-@media all and (transform-3d), (-webkit-transform-3d) {
+  */
+  @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
       opacity: 0;
       -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
     .carousel-fade .carousel-inner > .item.prev,
     .carousel-fade .carousel-inner > .item.active.left {
       opacity: 0;
       -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
     .carousel-fade .carousel-inner > .item.next.left,
     .carousel-fade .carousel-inner > .item.prev.right,
     .carousel-fade .carousel-inner > .item.active {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
     }
+  }
+  .glyphicon-chevron-right:before {
+    color: #fb0347;
+  }
+  .glyphicon-chevron-left:before {
+    color: #fb0347;
+  }
+
+  .slick-next:before { 
+    color: red;    
+    position: absolute;
+    right: 100px;
+  }
+  .slick-prev:before {
+    color: red;    
+    position: absolute;
+    left: 100px;
+    z-index: 200!important;
+  }
+
+
+.slick-slide img {
+  height: 150px;
+  padding: 1px;
+  border: none;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.6);
+  -o-transform: scale(1,1);
+  -ms-transform: scale(1,1);
+  -moz-transform: scale(1,1);
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1); 
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out; 
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
-.glyphicon-chevron-right:before {
-  color: #fb0347;
-}
-.glyphicon-chevron-left:before {
-  color: #fb0347;
+.slick-slide img:hover {
+  position: relative;
+  z-index: 999;
+  -o-transform: scale(1.03,1.03);
+  -ms-transform: scale(1.03,1.03);
+  -moz-transform: scale(1.03,1.03);
+  -webkit-transform: scale(1.03,1.03);
+  transform: scale(1.03,1.03);
 }
